@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jova-dev/static/css/main.967c99c7.chunk.css",
+    "main.js": "/jova-dev/static/js/main.6691ce36.chunk.js",
+    "main.js.map": "/jova-dev/static/js/main.6691ce36.chunk.js.map",
+    "runtime-main.js": "/jova-dev/static/js/runtime-main.4a7c0d40.js",
+    "runtime-main.js.map": "/jova-dev/static/js/runtime-main.4a7c0d40.js.map",
+    "static/js/2.2ad93c72.chunk.js": "/jova-dev/static/js/2.2ad93c72.chunk.js",
+    "static/js/2.2ad93c72.chunk.js.map": "/jova-dev/static/js/2.2ad93c72.chunk.js.map",
+    "index.html": "/jova-dev/index.html",
+    "static/css/main.967c99c7.chunk.css.map": "/jova-dev/static/css/main.967c99c7.chunk.css.map",
+    "static/js/2.2ad93c72.chunk.js.LICENSE.txt": "/jova-dev/static/js/2.2ad93c72.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a7c0d40.js",
+    "static/js/2.2ad93c72.chunk.js",
+    "static/css/main.967c99c7.chunk.css",
+    "static/js/main.6691ce36.chunk.js"
+  ]
+}
