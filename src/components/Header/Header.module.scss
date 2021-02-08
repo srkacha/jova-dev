@@ -1,0 +1,58 @@
+$COLOR_DARK: #222831;
+$COLOR_RED:#f05454;
+$COLOR_WHITE: #e8e8e8;
+
+.header {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .header_col {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        h1 {
+            color: $COLOR_WHITE;
+            font-size: 120px;
+            margin: 0px;
+            margin-bottom: 75px;
+
+            .dark {
+                color: $COLOR_DARK;
+            }
+
+            .red {
+                color: $COLOR_RED;
+            }
+        }
+
+        p {
+            color: $COLOR_WHITE;
+            font-size: 35px;
+            font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+
+            .crossed {
+                text-decoration: line-through;
+            }
+
+            .link {
+                color: $COLOR_WHITE;
+                background: linear-gradient(to right, $COLOR_RED, $COLOR_RED 50%, $COLOR_WHITE 50%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-size: 200% 100%;
+                background-position: 100%;
+                transition: background-position 250ms ease;
+
+                &:hover {
+                    cursor: pointer;
+                    background-position: 0 100%;
+                }
+            }
+        }
+    }
+}
