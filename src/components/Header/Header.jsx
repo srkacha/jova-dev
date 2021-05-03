@@ -1,8 +1,6 @@
 import styles from './Header.module.scss';
-import cls from 'classnames';
 
 export const Header = () => {
-
 
     return (
         <div className={styles.header}>
@@ -15,7 +13,7 @@ export const Header = () => {
                 <p>
                     Welcome to my&nbsp;
                     <span className={styles.crossed}>documentation</span>
-                    &nbsp;portfolio site!</p>
+                    &nbsp;portfolio!</p>
                 <p>
                     <span className={styles.link}>ABOUT</span>
                     <span> --- </span>

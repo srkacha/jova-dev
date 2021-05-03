@@ -1,3 +1,5 @@
+@import '../../style/global.scss';
+
 .main_row {
     display: flex;
     flex-direction: row;
@@ -9,7 +11,7 @@
         display: flex;
         max-width: 1200px;
         width: 100%;
-        background-color: #30475e;
+        background-color: $COLOR_BG_MAIN;
         padding-left: 25px;
         padding-right: 25px;
     }

@@ -1,6 +1,4 @@
-$COLOR_DARK: #222831;
-$COLOR_RED:#f05454;
-$COLOR_WHITE: #e8e8e8;
+@import '../../style/global.scss';
 
 .header {
     width: 100%;
@@ -32,7 +30,7 @@ $COLOR_WHITE: #e8e8e8;
         p {
             color: $COLOR_WHITE;
             font-size: 35px;
-            font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+            font-family: $DEFAULT_FONT_FAM;
 
             .crossed {
                 text-decoration: line-through;
