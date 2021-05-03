@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './Header.module.scss';
 
 export const Header = () => {
@@ -25,3 +26,7 @@ export const Header = () => {
         </div>
     );
 };
+
+const Wrapper = () => {
+    return <div className={styles.header}></div>
+}
