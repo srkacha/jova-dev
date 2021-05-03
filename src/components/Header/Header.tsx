@@ -6,18 +6,8 @@ export const Header = () => {
     <HeaderWrapper>
       <HeaderColumn>
         <HeaderTitle />
-        <p>
-          Welcome to my&nbsp;
-          <span className={styles.crossed}>documentation</span>
-          &nbsp;portfolio!
-        </p>
-        <p>
-          <span className={styles.link}>ABOUT</span>
-          <span> --- </span>
-          <span className={styles.link}>SKILLS</span>
-          <span> --- </span>
-          <span className={styles.link}>EXPERIENCE</span>
-        </p>
+        <HeaderInfo />
+        <HeaderMenu />
       </HeaderColumn>
     </HeaderWrapper>
   );
@@ -38,5 +28,27 @@ const HeaderTitle = () => {
       <span>.</span>
       <span className={styles.red}>DEV</span>
     </h1>
+  );
+};
+
+const HeaderInfo = () => {
+  return (
+    <p>
+      Welcome to my&nbsp;
+      <span className={styles.crossed}>documentation</span>
+      &nbsp;portfolio!
+    </p>
+  );
+};
+
+const HeaderMenu = () => {
+  return (
+    <p>
+      <span className={styles.link}>ABOUT</span>
+      <span> --- </span>
+      <span className={styles.link}>SKILLS</span>
+      <span> --- </span>
+      <span className={styles.link}>EXPERIENCE</span>
+    </p>
   );
 };
