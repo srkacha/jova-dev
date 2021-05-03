@@ -1,18 +1,17 @@
 @import '../../style/global.scss';
 
 .main_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  .main_col {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    max-width: 1200px;
     width: 100%;
-
-
-    .main_col {
-        display: flex;
-        max-width: 1200px;
-        width: 100%;
-        background-color: $COLOR_BG_MAIN;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
+    background-color: $COLOR_BG_MAIN;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
